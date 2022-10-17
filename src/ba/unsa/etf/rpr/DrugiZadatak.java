@@ -1,11 +1,12 @@
+package ba.unsa.etf.rpr;
 import java.util.Scanner;
 
 public class DrugiZadatak {
     public static int SumaCifara (int x){
         int sumaCifara=0;
         while(x!=0){
-            sumaCifara = sumaCifara += x%10;
-            x = x/= 10;
+            sumaCifara += x%10;
+            x/= 10;
         }
         return sumaCifara;
     }
